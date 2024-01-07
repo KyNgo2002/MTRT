@@ -5,3 +5,8 @@ This is a simple multi-threaded ray tracer built by following TheCherno's tutori
 ## Camera controls
 
 Hold right click to engage the camera, and then use WASDEQ for forward-backward-left-right-up-down for camera movement, or drag the mouse to change the viewing angle.
+
+## Running the project
+- Requires Vulkan SDK.
+- `git clone` the repository and open `MTRT.sln`
+- Run the project in release mode for best performance.
