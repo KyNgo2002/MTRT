@@ -1,6 +1,7 @@
-# Walnut App Template
+# Multithreaded Ray Tracer
 
-This is a simple app template for [Walnut](https://github.com/TheCherno/Walnut) - unlike the example within the Walnut repository, this keeps Walnut as an external submodule and is much more sensible for actually building applications. See the [Walnut](https://github.com/TheCherno/Walnut) repository for more details.
+This is a simple multi-threaded ray tracer built by following TheCherno's tutorial for raytracing up to episode 14 (https://www.youtube.com/@TheCherno). It is built on top of the Dear ImGui application interface library for ease of output to the viewport and allows for multithreading for great improvements to performance. The rest of the raytracer is just maths.
 
-## Getting Started
-Once you've cloned, you can customize the `premake5.lua` and `WalnutApp/premake5.lua` files to your liking (eg. change the name from "WalnutApp" to something else).  Once you're happy, run `scripts/Setup.bat` to generate Visual Studio 2022 solution/project files. Your app is located in the `WalnutApp/` directory, which some basic example code to get you going in `WalnutApp/src/WalnutApp.cpp`. I recommend modifying that WalnutApp project to create your own application, as everything should be setup and ready to go.
+## Camera controls
+
+Hold right click to engage the camera, and then use WASDEQ for forward-backward-left-right-up-down for camera movement, or drag the mouse to change the viewing angle.
